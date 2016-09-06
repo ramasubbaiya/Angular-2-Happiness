@@ -18,20 +18,20 @@
     </style>
     <script>
         System.config({
-        packages: {        
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
-      System.import('app/main')
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/main')
             .then(null, console.error.bind(console));
     </script>
 </head>
 
 <body>
-    <app>Loading...</app>
+    <media-tracker-app>Loading...</media-tracker-app>
 </body>
 
 </html>
