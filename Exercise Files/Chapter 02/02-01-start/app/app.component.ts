@@ -2,7 +2,7 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'media-tracker-app',
-    template : '<h1>My App</h1> <p class="description"> Hi I am from Heaven </p>',
+    templateUrl : 'app/app.component.html',
     styleUrls: ['app/app.component.css']
 })
 export class AppComponent {
