@@ -8,4 +8,5 @@ import {MediaItemListComponent} from './media-item-list.component';
     styleUrls: ['app/app.component.css']
 })
 export class AppComponent {
+    
 }
