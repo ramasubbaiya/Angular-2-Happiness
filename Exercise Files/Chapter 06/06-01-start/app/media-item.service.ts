@@ -8,7 +8,7 @@ export class MediaItemService {
 
     get(medium) {
         var searchParams = new URLSearchParams();
-        searchParams.append('medium')
+        searchParams.append('medium', medium);
         return this.http.get('mediaitems', { search: searchParams })
         .map(response => {
             return response.json().mediaItems;

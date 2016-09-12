@@ -29,4 +29,17 @@ The starting of the initial app is bootstrapping initial component
     * Router outlets
     * Routing events
 
-## Components
+## Component
+    Encapsulates the template, data and the behaviour of a view
+
+## Service
+    * Data Access
+    * Logging
+    * Business Logic
+    * Configuration
+
+## Router
+    Responsible for navigation
+
+## Directive
+    To modify DOM elements and/or extend their behaviour
